@@ -22,7 +22,7 @@ def get_requirement()->List[str]:
     
     
 setup(
-    name="Network Cyber Security",
+    name="NetworkSecurity",
     version="0.0.1",
     author="Mohsin",
     author_email="mmohsinbhatti66@gmail.com",
