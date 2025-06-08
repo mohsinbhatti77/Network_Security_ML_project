@@ -54,15 +54,15 @@ class NetworkDataExtract():
     
     
 
-if __name__=='__main__':
-    FILE_PATH ="Network_Data\FishingData.csv"
-    DATABASE = "mmohsinbhatti66"
-    Collection = "NetworkData"
-    networkobj = NetworkDataExtract()
-    records = networkobj.csv_to_json_converter(file_path=FILE_PATH)
-    print(records)
-    no_of_records = networkobj.insert_data_mongodb(records,DATABASE, Collection)
-    print(no_of_records)
+# if __name__=='__main__':
+#     FILE_PATH ="Network_Data\FishingData.csv"
+#     DATABASE = "mmohsinbhatti66"
+#     Collection = "NetworkData"
+#     networkobj = NetworkDataExtract()
+#     records = networkobj.csv_to_json_converter(file_path=FILE_PATH)
+#     print(records)
+#     no_of_records = networkobj.insert_data_mongodb(records,DATABASE, Collection)
+#     print(no_of_records)
     
 # 12 mint
         
